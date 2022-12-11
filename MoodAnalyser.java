@@ -27,6 +27,7 @@ public class MoodAnalyser {
             else
                 return "Happy";
         } catch(NullPointerException e) {
+        	System.out.println("Please provide valid mood ");
             return "Happy";
         }
     }
